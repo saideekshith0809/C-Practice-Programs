@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     
     struct ListNode dummy;
