@@ -28,9 +28,5 @@ int main() {
         maxones=current;
     }
         printf("%d\n", totalones-maxones);
-    
-    
-    
-
     return 0;
 }
