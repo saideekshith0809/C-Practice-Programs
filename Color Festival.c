@@ -1,12 +1,12 @@
 #include <stdio.h>
+#include <string.h>
+#include <math.h>
 #include <stdlib.h>
-
 struct Node {
     int data;
     struct Node* next;
 };
 
-// function to check if value exists in linked list
 int exists(struct Node* head, int val) {
     struct Node* temp = head;
     
@@ -19,7 +19,6 @@ int exists(struct Node* head, int val) {
     return 0;
 }
 
-// function to insert node at beginning
 struct Node* insert(struct Node* head, int val) {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     
