@@ -1,5 +1,7 @@
+#include <stdio.h>
 #include <string.h>
-
+#include <math.h>
+#include <stdlib.h>
 int minOperations(char *s) {
     int n = strlen(s);
     int changes0 = 0, changes1 = 0;
