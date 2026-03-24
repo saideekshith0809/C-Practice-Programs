@@ -1,4 +1,3 @@
-#include <stdlib.h>
 
 #define HASH_SIZE 1000
 
