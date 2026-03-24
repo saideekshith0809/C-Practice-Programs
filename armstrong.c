@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 int main() {
     int n, original, remainder, result = 0;
